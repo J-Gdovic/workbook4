@@ -4,6 +4,9 @@
 
 let count = 1; //this variable is what the count starts with
 let condition = true;
+
+// condition goes at the bottom
+
 do{
 console.log(`${count} bottles of birch beer on the wall`)
 // count = count + 1; or use the short version:
