@@ -7,7 +7,8 @@ let myInfo = {
   state: "Texas",
   zip: "76126",
 };
-let info = `${myInfo.name} 
+let info = 
+`${myInfo.name} 
  ${myInfo.adress} 
 ${myInfo.city} ${myInfo.state},${myInfo.zip}`
 
