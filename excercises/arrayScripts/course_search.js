@@ -57,3 +57,9 @@ for (const course of courses) {
   }
 }
 
+for (const course of courses) {
+    if (course.Location == "Classroom 1") {
+        console.log(course.CourseId);
+    }
+    
+}
