@@ -37,7 +37,7 @@ for (const academyMember of academyMembers) {
 
 for (const academyMember of academyMembers) {
   if (academyMember.name.indexOf("Bob") != -1) {
-    //console.log(academyMember.name);
+   // console.log(academyMember.name);
   }
 }
 
