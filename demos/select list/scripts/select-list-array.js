@@ -53,7 +53,7 @@ const states = [
 ];
 // bring elements into variables
 const statesList = document.getElementById("statesList");
-
+const selectStateButton = document.getElementById("selectStateButton")
 //write a function to handle events
 function loadStatesList() {
   for (const state of states) {
@@ -68,3 +68,14 @@ function loadStatesList() {
   }
 }
 loadStatesList();
+
+
+//how to write that code shorter:
+// let option = new Option(state.name,state.abbrev); 
+
+
+function displayStateInformation() {
+console.log(statesList.value)
+}
+
+selectStateButton.onclick = displayStateInformation
